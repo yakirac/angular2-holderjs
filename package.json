@@ -1,6 +1,6 @@
 {
   "name": "angular2-holderjs",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Angular 2 component for holderjs",
   "author": "Yakira C. Bristol",
   "license": "MIT",
@@ -10,10 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yakirac/angular2-holderjs"
+    "url": "git+https://github.com/yakirac/angular2-holderjs.git"
   },
   "keywords": [
-    "angular2",
+    "Angular",
+    "Angular2",
     "holderjs"
   ],
   "dependencies": {

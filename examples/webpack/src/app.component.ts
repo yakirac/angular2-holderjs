@@ -1,21 +1,15 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app',
     template: `<div>
-                   <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
-                   {{message}}
-                   <hjs [holderId]="black-widow" [imgSrc]="imageSource"></hjs>
+                   <hjs [holderId]="holderId" [imgSrc]="imageSource"></hjs>
                </div>`
 })
 
 export class AppComponent {
 
-    message = "";
+    holderId = "black-widow";
     imageSource = "holder.js/293x210?text=Black Widow&theme=vine";
-
-    onKeyUp(input) {
-        this.message = input.value;
-    }
 
 }

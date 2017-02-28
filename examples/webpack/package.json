@@ -1,26 +1,22 @@
 {
-  "name": "ng2-webpack-minimal",
+  "name": "angular2-holderjs-example",
   "version": "1.0.0",
-  "description": "A minimal Webpack-based Angular 2 seed project",
+  "description": "Example webpack project for the angular2-holderjs component",
   "scripts": {
     "start": "webpack-dev-server --colors --display-error-details --content-base src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhades/ng2-webpack-minimal.git"
+    "url": "git+https://github.com/yakirac/angular2-holderjs.git"
   },
   "keywords": [
     "Angular",
-    "2",
-    "Webpack",
-    "Seed"
+    "Angular2",
+    "holderjs",
+    "Webpack"
   ],
-  "author": "jhades.dev@gmail.com",
+  "author": "Yakira C. Bristol",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jhades/ng2-webpack-minimal/issues"
-  },
-  "homepage": "https://github.com/jhades/ng2-webpack-minimal#readme",
   "devDependencies": {
     "typescript": "^2.0.10",
     "webpack": "^1.13.0",
@@ -34,7 +30,7 @@
     "@angular/http": "~2.4.0",
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
-    "angular2-holderjs": "~0.0.3",
+    "angular2-holderjs": "~0.0.6",
     "core-js": "^2.4.1",
     "holderjs": "^2.9.4",
     "rxjs": "5.0.1",
