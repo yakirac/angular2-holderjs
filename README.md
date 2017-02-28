@@ -14,8 +14,7 @@ Add HolderJsModule to NgModule imports in your main module
 
 In your template, add the options you would like for holderjs:
 
-```<hjs [holderId]="test-holder" [imgSrc]="holder.js/293x210?text=Test&theme=vine"></hjs>
-```
+`<hjs [holderId]="test-holder" [imgSrc]="holder.js/293x210?text=Test&theme=vine"></hjs>`
 
 See [https://github.com/imsky/holder](https://github.com/imsky/holder) for imgSrc options
 
